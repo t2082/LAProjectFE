@@ -9,6 +9,7 @@ export default async ({params}:any) => {
     
     return (
         <>  
+            {console.log(categoryName)}
             <h2 className="p-4 bg-blue-600 text-white text-3xl text-center">
                 {categoryName}
             </h2>

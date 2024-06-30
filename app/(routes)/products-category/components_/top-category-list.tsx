@@ -26,7 +26,7 @@ export default function TopCategoryList({ categoryList, selectedCategory }: any)
         <>
             <div className="flex sm:grid-cols-4 md:grid-cols-6 gap-5 mt-3 overflow-auto mx-7 md:mx-20 justify-center">
                 {categoryList.map((categories: any, index: any) => (
-                    <Link href={'/products-category/' + categories.attributes.name} 
+                    <Link key={index} href={'/products-category/' + categories.attributes.name} 
                         className={`flex flex-col items-center bg-blue-100 gap-3 p-3 rounded-lg group cursor-pointer text-center w-[150px] min-w-[100px] 
                         ${selectedCategory == categories.attributes.name ? 'text-white bg-blue-600 hover:bg-blue-700' : 'hover:bg-blue-200'}`}
                         onClick={() => onNavigate(selectedCategory, categories.attributes.name)}>

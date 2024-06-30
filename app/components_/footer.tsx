@@ -7,7 +7,7 @@ export default function Footer(){
                 <div className="mx-auto max-w-screen-xl space-y-8 px-4 pt-16 sm:px-6 lg:space-y-16 lg:px-8">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                         <div>
-                            <Image src='/assets/images/logo.png' alt="footer-logo" width={500} height={150} className="w-[250px]"/>
+                            <Image src='/assets/images/logo.png' alt="footer-logo" width={250} height={150} className="w-[250px]"/>
 
                             <p className="mt-4 max-w-xs text-gray-500">
                                 Welcome to Akr Pharmacy! We offer high-quality, safe medications with professional advice. Enjoy fast online ordering and home delivery. Let us care for your health!
